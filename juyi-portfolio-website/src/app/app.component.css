@@ -1,0 +1,27 @@
+.tab-bar-background {
+    background: linear-gradient(#222,#111);
+    width: 100%;
+}
+
+.tab-bar-text {
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 400;
+    color: #eee;
+    text-align: center;
+}
+
+.tab-bar-title-cell {
+    width: 64%;
+}
+
+.tab-bar-page-cell {
+    width: 12%;
+}
+
+.tab-bar-title {
+    padding-left: 30px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 16px;
+}

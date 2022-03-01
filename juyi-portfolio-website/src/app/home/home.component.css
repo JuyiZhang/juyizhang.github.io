@@ -1,0 +1,26 @@
+.home-background {
+    background: url(https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?cs=srgb&dl=pexels-tara-winstead-8386440.jpg&fm=jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.home-title {
+    padding-top: 50px;
+    float: left;
+    font-size: 48px;
+}
+
+.introduction {
+    padding-left: 50px;
+    font-weight: 300;
+}
+
+.job-description {
+    fill: none;
+    background: linear-gradient(to bottom, rgb(162, 244, 255),rgb(133, 176, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+}
