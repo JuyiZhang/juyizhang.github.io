@@ -1,26 +1,64 @@
-.home-background {
-    background: url(https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?cs=srgb&dl=pexels-tara-winstead-8386440.jpg&fm=jpg);
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-}
-
 .home-title {
-    padding-top: 50px;
+    margin-top: 50px;
     float: left;
-    font-size: 48px;
 }
 
-.introduction {
-    padding-left: 50px;
-    font-weight: 300;
+.home-definition-slot {
+    /*width: 1000px;*/
+    height: 60px;
+    overflow: hidden;
 }
 
 .job-description {
+    float: none;
     fill: none;
-    background: linear-gradient(to bottom, rgb(162, 244, 255),rgb(133, 176, 255));
+    color: transparent;
+    margin-top: 0;
+}
+
+.card {
+    width: 500px;
+    height: 500px;
+    background: white;
+}
+
+#home-text-mechanical-engineer {
+    background: linear-gradient(to bottom, rgb(255, 162, 219),rgb(255, 75, 150));
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    color: transparent;
+}
+
+#home-text-juyi-zhang {
+    background: linear-gradient(to bottom, rgb(255, 215, 162),rgb(255, 147, 75));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+#home-text-electrical-engineer {
+    background: linear-gradient(to bottom, rgb(162, 255, 212),rgb(97, 255, 97));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+#home-text-programmer {
+    background: linear-gradient(to bottom, rgb(162, 244, 255),rgb(75, 174, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+#home-text-designer {
+    background: conic-gradient(rgb(255, 135, 135),rgb(87, 255, 171),rgb(135, 143, 255),rgb(255, 137, 235),rgb(255, 135, 135));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    width: 250px;
+}
+
+#description-container:hover {
+    transform: translateY(-228px); /*57px line height*/
+    transition: transform 2.5s;
 }

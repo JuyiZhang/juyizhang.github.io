@@ -1,14 +1,16 @@
 .tab-bar-background {
-    background: linear-gradient(#222,#111);
+    background: linear-gradient(rgba(5,5,5,0.8),rgba(20,20,20,0.8));
     width: 100%;
 }
 
 .tab-bar-text {
     font-family: 'Lato';
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     color: #eee;
     text-align: center;
+    margin: 15px;
+    cursor: pointer;
 }
 
 .tab-bar-title-cell {
@@ -23,5 +25,39 @@
     padding-left: 30px;
     text-align: left;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 19px;
+}
+
+.tab-bar-text:hover {
+    color: transparent;
+    transition: color 0.3s;
+    
+}
+
+#tab-bar-name:hover {
+    background: linear-gradient(lightgreen,skyblue);
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#tab-bar-skills:hover {
+    background: linear-gradient(orange,red);
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#tab-bar-projects:hover {
+    background: linear-gradient(rgb(255, 132, 255),rgb(92, 92, 255));
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#tab-bar-experience:hover {
+    background: linear-gradient(yellow,rgb(147, 255, 156));
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
 }

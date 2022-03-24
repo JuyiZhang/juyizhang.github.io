@@ -1,1 +1,56 @@
-<p>experience works!</p>
+<h1 class="title introduction experience-title">Research Projects</h1>
+<div class="tilt-card general-card" *ngFor="let entry of researchData" data-tilt data-tilt-scale="1.02">
+    <table width="100%">
+        <tr>
+            <td><p class="general-text general-title">{{entry.title}}</p></td>
+            <td><p class="general-text general-title general-right">{{entry.caption}}</p></td>
+        </tr>
+        <tr>
+            <td><p class="general-text">{{entry.descriptor}}</p></td>
+            <td><p class="general-text general-right">{{entry.date}}</p></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <ul class="general-list">
+                    <li class="general-text" *ngFor="let desc of entry.list">{{desc}}</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
+<h1 class="title introduction experience-title">Internships</h1>
+<div class="tilt-card general-card" *ngFor="let entry of workExperience" data-tilt data-tilt-scale="1.02">
+    <table width="100%">
+        <tr>
+            <td><p class="general-text general-title">{{entry.title}}</p></td>
+            <td><p class="general-text general-title general-right">{{entry.caption}}</p></td>
+        </tr>
+        <tr>
+            <td><p class="general-text">{{entry.descriptor}}</p></td>
+            <td><p class="general-text general-right">{{entry.date}}</p></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <ul class="general-list">
+                    <li class="general-text" *ngFor="let desc of entry.list">{{desc}}</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
+<h1 class="title introduction experience-title">Class Projects</h1>
+<div class="tilt-card general-card" *ngFor="let entry of classpj" data-tilt data-tilt-scale="1.02">
+    <table width="100%">
+        <tr>
+            <td><p class="general-text general-title">{{entry.title}}</p></td>
+            <td><p class="general-text general-title general-right"></p></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <ul class="general-list">
+                    <li class="general-text" *ngFor="let desc of entry.list">{{desc}}</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>

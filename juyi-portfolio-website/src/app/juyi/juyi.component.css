@@ -1,0 +1,101 @@
+.home-background {
+    position: fixed;
+    z-index: -100;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-size: cover;
+}
+
+body {
+    background: url(https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?cs=srgb&dl=pexels-tara-winstead-8386440.jpg&fm=jpg);
+}
+
+.home-self-introduction {
+    margin-left: 50px;
+    width: calc(100% - 180px);
+}
+
+.home-education {
+    margin-top: 25px;
+    margin-left: 50px;
+    width: calc(100% - 140px);
+    margin-bottom: 50px;
+}
+
+.home-contact {
+    margin-top: 25px;
+    margin-left: 25px;
+    width: calc(100% - 155px);
+    margin-bottom: 50px;
+}
+
+.home-placeholder-name {
+    height: 120px;
+    width: 100px;
+}
+
+.home-second-row-element {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.home-self-introduction-text {
+    font-family: lato;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0;
+}
+
+.home-university {
+    font-weight: 900;
+}
+
+.home-text-right {
+    float: right;
+}
+
+.home-text-left {
+    float: left;
+}
+
+.home-text {
+    font-family: lato;
+    color: white;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.home-title {
+    font-size: 30px;
+}
+
+.home-contact-text {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.home-education-content {
+    transform-style: preserve-3d;
+    transform: translateZ(50px);
+}
+
+#home-uiuc {
+    background: linear-gradient(to left,rgb(255, 224, 166),rgb(177, 177, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+}
+
+#home-eth {
+    background: linear-gradient(to right,white,rgb(177, 177, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+}
+
+
