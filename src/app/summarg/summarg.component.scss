@@ -1,0 +1,210 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sustainability-text {
+    background-image: linear-gradient(180deg, #ffffff, #cae5bd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0px;
+    padding: 1rem;
+    text-transform: uppercase;
+    
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: linear-gradient(180deg, #f9f9f9, #d7d7d7);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    
+}
+
+.card.center {
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.education-degree-text {
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    
+}
+
+.card-text {
+    text-transform: uppercase;
+    font-size: 2rem !important;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+.card-text.mems {
+    background: linear-gradient(180deg, #f1e3cd, #bcb5a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.card-text.title {
+    font-size: 3rem !important;
+    background: linear-gradient(180deg, #111, #666);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    margin: 1rem 0rem;
+}
+
+.card-text.semi {
+    background: linear-gradient(180deg, #ffffff, #b7d8ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.card-text.ee {
+    background: linear-gradient(90deg, #37c786, #184c40);
+    -webkit-text-stroke: solid 2px #c7b137;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: #c7b137 3px 3px 0px;
+    background-clip: text;
+    font-size: 1rem !important;
+}
+
+.card-text.mr {
+    background: linear-gradient(45deg, #c14eff, #1fb1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.pd-text {
+    font-family: "Playwrite CU", cursive !important;
+    padding: 0rem 2rem;
+    background: linear-gradient(180deg, #c94c58, #312d2c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.card-text.mfg {
+    text-shadow: #373cc7 3px 3px 0px;
+}
+
+.card.asp {
+    aspect-ratio: 1.27;
+}
+
+.education-degree-major {
+    text-transform: uppercase;
+    font-size: 1.5rem !important;
+    margin-top: 14px;
+    text-align: left;
+}
+
+.card h2 {
+    font-size: 4rem;
+    font-family: "Lato", sans-serif;
+    margin: 5px 0px;
+    margin-right: 1rem;
+    opacity: 0.8;
+}
+
+.education-school {
+    text-align: left;
+    font-size: 1.5rem !important;
+    margin-left: 2rem;
+    opacity: 0.6;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.card p {
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+}
+
+
+
+.card.sus {
+    background: url("../../../assets/grids/Green.jpg");
+    grid-column: span 6;
+}
+
+.card.ms {
+    background-image: url('../../../assets/Education/ETH.png');
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.card.meng {
+    background-image: url('../../../assets/Education/Cal.png');
+    grid-column: span 3;
+}
+
+.card.mems {
+    background-image: url('../../../assets/grids/MEMS.png');
+}
+
+.card.education {
+    background: linear-gradient(180deg, #f9f9f9, #d7d7d7);
+    grid-column: span 2;
+}
+
+.card.semiconductor {
+    background-image: url('../../../assets/grids/Semiconductor.png');
+    grid-column: span 2;
+}
+
+.card.bs {
+    background-image: url('../../../assets/Education/UIUC.png');
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.card.product-design {
+    background-image: url('../../../assets/grids/PD.png');
+}
+
+.card.electrical-engineering {
+    background-image: url('../../../assets/grids/PCB.png');
+    grid-row: span 2;
+}
+
+.card.ceramics {
+    background-image: url('../../../assets/grids/Ceramics.png');
+}
+
+.card.plastics {
+    background-image: url('../../../assets/grids/Plastics.png');
+}
+
+.card.manufacturing {
+    background-image: url('../../../assets/grids/DFM.png');
+    grid-column: span 2;
+}

@@ -1,0 +1,163 @@
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0px;
+    padding: 3rem 2rem;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.4rem;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    color: white;
+    
+}
+
+.uiuc {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0.4)) ,url("../../../assets/Education/uiuc_landscape.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.eth {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0.4)) ,url("../../../assets/Education/eth_landscape.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.ucb {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0.4)) ,url("../../../assets/Education/ucb_landscape.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.education-container {
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: fit-content(300px) auto fit-content(500px);
+    margin-bottom: 1rem;
+}
+
+.courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 1rem;
+    
+}
+
+.education-text {
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.gpa-item {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-right: 2rem;
+}
+
+.gpa-text {
+    font-size: 4rem;
+    color: white;
+    font-weight: 700;
+    margin: 2.5rem 0;
+}
+
+.max-gpa {
+    opacity: 0.5;
+}
+
+
+.education-degree-level-text {
+    font-size: 5rem;
+    width: 220px;
+    margin: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    opacity: 0.7;
+}
+
+.education-school-text {
+    opacity: 0.7;
+    margin-bottom: 0.5rem;
+}
+
+.education-major-text {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+}
+
+.Manufacturing {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0.4)) ,url("../../../assets/Courses/manufacturing.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+.Product {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0.4)) ,url("../../../assets/Courses/product.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+.Nanotechnology {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0.4)) ,url("../../../assets/Courses/nanotechnology.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+.Mechanical {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0.4)) ,url("../../../assets/Courses/mechanical.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+.Arts {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0.4)) ,url("../../../assets/Courses/arts.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+.Electrical {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0.4)) ,url("../../../assets/Courses/electrical.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+.courses-title-text {
+    // width: 0;
+    height: 1rem;
+    // margin: 0;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: white;
+    letter-spacing: 0.2rem;
+    font-size: 3.7rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    transform: translate(-1.5rem, -2.5rem);
+    opacity: 0.2;
+}
