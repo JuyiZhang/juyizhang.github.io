@@ -1,0 +1,84 @@
+.navigation-bar {
+    background: linear-gradient(180deg, rgba(255,255,255,0.8), rgba(255, 255, 255, 0.6));
+    padding: 0.1rem 1rem;
+    display: inline-block;
+    width: calc(100% - 2rem);
+    border-radius: 20px;
+    margin-bottom: 0.75rem;
+}
+
+.navigation-bar-title {
+    position: absolute;
+    top: 0.5rem;
+    font-family: "Playwrite CU", cursive;
+    float: left;
+    font-weight: 800 !important;
+    margin-left: 1.5rem;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.navigation-bar-link {
+    font-size: 1rem;
+    margin-right: 3rem;
+    text-decoration: none;
+    float: right;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    color: black;
+}
+
+.active {
+    background: linear-gradient(90deg, #69b6cd, #6fca9e, #8e74c0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.active_edu {
+    background: linear-gradient(90deg, #ff8000, #ce291a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: solid 1px #ff5500;
+}
+
+.active_contact {
+    background: linear-gradient(90deg, #ed8a08, #cfb107);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: solid 1px #d68700;
+}
+
+.active_skill {
+    background: linear-gradient(90deg, #00ff73, #10f2d0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: solid 1px #00ffcc;
+}
+
+.active_pub {
+    background: linear-gradient(90deg, #0795b1, #22c0ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: solid 1px #22ade3;
+}
+
+.active_proj {
+    background: linear-gradient(90deg, #007bc7, #0e07d1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: solid 1px #0564ca;
+}
+
+.active_exp {
+    background: linear-gradient(90deg, #7307b1, #b922ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: solid 1px #a225d4;
+}

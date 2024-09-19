@@ -1,0 +1,49 @@
+<div class="main-image-container">
+    <div class="action-btn-container">
+        <a class="action-btn">Download Resume</a>
+        <a class="action-btn action-btn-bordered">Contact Now</a>
+    </div>
+</div>
+<div class="academic-banner">
+    <p class="banner-title">Education</p>
+</div>
+<div class="education-grid">
+    <div *ngFor="let item of education" [ngClass]="item.class" class="education-grid-item">
+        <div style="height: 200px;">
+            <p class="default-font degree-text">{{item.degreelvl}}</p>
+            <p class="default-font education-school-name">{{item.school}}</p>
+            <p class="default-font education-year">{{item.year}}</p>
+        </div>
+        <span class="gpa-item">
+            <p class="default-font education-gpa">{{item.gpa}}</p>
+            <p class="default-font education-max-gpa">/{{item.max_gpa}}</p>
+        </span>
+        <p class="default-font degree-text">{{item.major}}</p>
+    </div>
+</div>
+<div class="experience-banner">
+    <p class="banner-title">Work Experience</p>
+</div>
+<div class="experience-grid">
+    <div *ngFor="let item of experience" [ngClass]="item.class" class="experience-grid-item">
+        <div style="height: 150px;">
+            <p class="default-font degree-text">{{item.title}}</p>
+            <p class="default-font education-school-name">{{item.company}}</p>
+            <p class="default-font education-year">{{item.year}}</p>
+        </div>
+        <div class="experience-description-container">
+            <p *ngFor="let desc of item.description" class="default-font experience-description">{{desc}}</p>
+        </div>
+    </div>
+</div>
+<div class="skills-banner">
+    <p class="banner-title">Skills</p>
+</div>
+<div>
+    <div class="education-grid">
+        <div *ngFor="let item of skills" [ngClass]="item" class="skill-grid-item">
+            <p class="default-font skill-text">{{item}}</p>
+        </div>
+    </div>
+</div>
+<app-summarg></app-summarg>

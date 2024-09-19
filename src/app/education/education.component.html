@@ -1,0 +1,22 @@
+<h1>Schools Attended</h1>
+<div width="100%">
+    <div *ngFor="let item of education" [ngClass]="item.classes" class="education-container">
+        <p class="education-text education-degree-level-text">{{item.degreelvl}}</p>
+        <div style="padding-top: 1.5rem;">
+                <p class="education-text education-school-text">{{item.school}}</p>
+                <p class="education-text education-major-text">{{item.major}}</p>
+                <p class="education-text">{{item.year}}</p>
+        </div>
+        <span class="gpa-item">
+            <p class="gpa-text curr-gpa">{{item.gpa}}</p>
+            <p class="gpa-text max-gpa">&nbsp;{{item.max_gpa}}</p>
+        </span>
+    </div>
+</div>
+<h1>Classes Taken</h1>
+<div class="courses-container">
+    <div *ngFor="let item of classes" [ngClass]="item['category']">
+        <p class="courses-title-text">{{item['category']}}</p>
+        <p *ngFor="let class of item['courses']">{{class}}</p>
+    </div>
+</div>
