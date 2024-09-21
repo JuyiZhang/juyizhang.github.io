@@ -2,14 +2,15 @@
     background: linear-gradient(180deg, rgba(255,255,255,0.8), rgba(255, 255, 255, 0.6));
     padding: 0.1rem 1rem;
     display: inline-block;
-    width: calc(100% - 2rem);
+    width: 100%;
+    min-width: 1280;
     border-radius: 20px;
     margin-bottom: 0.75rem;
 }
 
 .navigation-bar-title {
     position: absolute;
-    top: 0.5rem;
+    top: 2rem;
     font-family: "Playwrite CU", cursive;
     float: left;
     font-weight: 800 !important;

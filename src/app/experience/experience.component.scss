@@ -1,0 +1,179 @@
+.company-logo {
+    width: 72px;
+    aspect-ratio: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 30px;
+    background: linear-gradient(0deg, #d3d3d3, #f5f5f5);
+    box-shadow: #ddd 2px 2px 10px;
+    margin-right: 1rem;
+}
+
+.project-image {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-proj {
+    display: grid;
+    grid-template-columns: 400px auto;
+    padding-right: 1rem;
+    column-gap: 1rem;
+    background: linear-gradient(180deg, #f8f8f8, #ececec);
+    margin-bottom: 1rem;
+    width: 1280px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: #ddd 2px 2px 20px;
+}
+
+.project-text {
+    color: black;
+}
+
+.project-title-text {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    opacity: 0.7;
+}
+
+.project-name-text {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 0;
+}
+
+.horizontal-span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.project-year-text {
+    opacity: 0.5;
+    margin-bottom: 0;
+}
+
+.project-section-title {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    background: linear-gradient(0deg, #16a2ff, #1560d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.view-symbol {
+    color: white;
+    font-size: 40px;
+    margin-right: 0.5rem;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 72;
+
+    :hover > & {
+        color: #108cf8;
+        transition: color 0.3s;
+    }
+}
+
+.company-title {
+    display: grid;
+    grid-template-columns: 100px auto 400px;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.project-view-btn {
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 30px;
+    background:  #108cf8;
+    border: solid 3px #6bbffa;
+    padding: 0.2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-view-btn:hover {
+    background: white;
+    color: #108cf8;
+    border: solid 3px #108cf8;
+    transition: background 0.3s;
+}
+
+
+
+.company-name-text{
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.7;
+    margin: 0;
+}
+
+.company-title-text {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.company-year-text {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: right;
+    margin: 0.2rem 0.5rem;
+    opacity: 0.5;
+    line-height: 1;
+}
+
+li {
+    padding: 0.3rem;
+    color: white;
+}
+
+.company-location-text {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    opacity: 0.5;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.card-exp {
+    width: 1280px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.Apple {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../../assets/Work/apple.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.Microsoft {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../../assets/Work/microsoft.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+p {
+    color: white;
+}

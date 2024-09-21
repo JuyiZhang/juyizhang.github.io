@@ -1,71 +1,71 @@
 .Modeling {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../../assets/Skills/modeling.png");
+    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../assets/Skills/modeling.png");
     background-size: cover;
     background-position: center;
 }
 
 .Simulation {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../../assets/Skills/simulation.png");
+    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../assets/Skills/simulation.png");
     background-size: cover;
     background-position: center;
 }
 
 .Rendering {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../../assets/Skills/rendering.png");
+    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../assets/Skills/rendering.png");
     background-size: cover;
     background-position: center;
 }
 
 .MEMS {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../../assets/Skills/MEMS.png");
+    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../assets/Skills/MEMS.png");
     background-size: cover;
     background-position: center;
 }
 
 .Design {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../../assets/Skills/Dfm.png");
+    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../assets/Skills/Dfm.png");
     background-size: cover;
     background-position: center;
 }
 
 .Robotics {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../../assets/Skills/robotics.png");
+    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../assets/Skills/robotics.png");
     background-size: cover;
     background-position: center;
 }
 
 .FPGA {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../../assets/Skills/FPGA.png");
+    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../assets/Skills/FPGA.png");
     background-size: cover;
     background-position: center;
 }
 
 .Embedded {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../../assets/Skills/embedded system.png");
+    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../assets/Skills/embedded system.png");
     background-size: cover;
     background-position: center;
 }
 
 .PCB {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../../assets/Skills/PCB.png");
+    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../assets/Skills/PCB.png");
     background-size: cover;
     background-position: center;
 }
 
 .Machine {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../../assets/Skills/machine.png");
+    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../assets/Skills/machine.png");
     background-size: cover;
     background-position: center;
 }
 
 .Vision {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../../assets/Skills/vision.png");
+    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../assets/Skills/vision.png");
     background-size: cover;
     background-position: center;
 }
 
 .Architecture {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../../assets/Skills/architecture.jpg");
+    background: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.6)), url("../../assets/Skills/architecture.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -75,16 +75,17 @@
     border-radius: 20px;
     display: flex;
     overflow: hidden;
-    width: 100% !important; 
+    width: 1280px; 
     aspect-ratio: 2;
     min-height: 800px;
-    background: url("../../../assets/juyi.jpg");
+    background: url("../../assets/juyi.jpg");
     background-size: cover;
     background-position: center;
+    margin-bottom: 1rem;
 }
 
 .academic-banner {
-    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.4)), url('../../../assets/Banner/education.png') ;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.4)), url('../../assets/Banner/education.png') ;
     display: flex;
     left: 0;
     right: 0;
@@ -95,7 +96,7 @@
 }
 
 .experience-banner {
-    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.4)), url('../../../assets/Banner/workexp.png') ;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.4)), url('../../assets/Banner/workexp.png') ;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -106,7 +107,7 @@
 }
 
 .skills-banner {
-    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.4)), url('../../../assets/Banner/skills.png') ;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.4)), url('../../assets/Banner/skills.png') ;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -141,17 +142,18 @@
 }
 
 .action-btn-container {
-    position: absolute;
+    position: relative;
     width: 100%;
     min-width: 1280px;
     justify-content: center;
     bottom: 100px;
+    height: 50px;
     display: flex;
 }
 
 .education-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(406px, calc(33vw - 1rem)));
+    grid-template-columns: repeat(3, 417px);
     grid-gap: 0.75rem;
     padding: 1rem 0rem;
 }
@@ -192,7 +194,7 @@
 
 .experience-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(618px, calc(49.5vw - 1rem)));
+    grid-template-columns: repeat(2, 629px);
     grid-gap: 0.75rem;
     padding: 1rem 0rem;
 }
@@ -207,13 +209,13 @@
 }
 
 .apple {
-    background-image: url("../../../assets/Work/MCG.png");
+    background-image: url("../../assets/Work/MCG.png");
     background-position: center;
     background-size: cover;
 }
 
 .microsoft {
-    background-image: url("../../../assets/Work/MSFT.png");
+    background-image: url("../../assets/Work/MSFT.png");
     background-position: center;
     background-size: cover;
 }
@@ -229,17 +231,17 @@
 }
 
 .uiuc {
-    background-image: url("../../../assets/Education/UIUC.png");
+    background-image: url("../../assets/Education/UIUC.png");
     background-size: cover;
 }
 
 .eth {
-    background-image: url("../../../assets/Education/ETH.png");
+    background-image: url("../../assets/Education/ETH.png");
     background-size: cover;
 }
 
 .cal {
-    background-image: url("../../../assets/Education/Cal.png");
+    background-image: url("../../assets/Education/Cal.png");
     background-size: cover;
 }
 
@@ -325,6 +327,6 @@
 }
 
 #uiuc {
-    background-image: url("../../../assets/Education/UIUC.png");
+    background-image: url("../../assets/Education/UIUC.png");
     background-size: cover;
 }

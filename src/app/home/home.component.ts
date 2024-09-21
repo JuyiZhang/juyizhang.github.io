@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SummargComponent } from '../summarg/summarg.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, SummargComponent],
+  imports: [CommonModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

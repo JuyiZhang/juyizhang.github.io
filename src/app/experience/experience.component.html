@@ -1,14 +1,53 @@
+<h1>Companies</h1>
 <div>
-    <div>
-        <span>
-            <img>
-            <p>Apple Procurement and Operations</p>
+    <div *ngFor="let item of company" class="{{item.name}} card-exp">
+        <span class="company-title">
+            <img [src]="item.image" alt="Company Logo" class="company-logo">
+            <div>
+                <p class="company-name-text">{{item.name}}</p>
+                <p class="company-title-text">{{item.title}}</p>
+            </div>
+            <div>
+                <p class="company-year-text">{{item.year}}</p>
+            </div>
         </span>
         <div>
-            <span><p>Shanghai, China</p> <p>2022-2023</p></span>
+            <p class="company-location-text">{{item.location}}</p>
             <ul>
-                <li></li>
+                <li *ngFor="let desc of item.description">{{desc}}</li>
             </ul>
+        </div>
+    </div>
+</div>
+<h1>Projects</h1>
+<div>
+    <div *ngFor="let item of projects" class="{{item.name}} card-proj">
+        <c-carousel class="experience-carousel">
+            <c-carousel-indicators></c-carousel-indicators>
+            <c-carousel-inner>
+                <c-carousel-item *ngFor="let image of item.images">
+                    <img [src]="image" alt="Project Image" class="project-image">
+                </c-carousel-item>
+            </c-carousel-inner>
+            <c-carousel-control caption="Previous" direction="prev"></c-carousel-control>
+            <c-carousel-control caption="Next" direction="next"></c-carousel-control>
+        </c-carousel>
+        <div>
+            <span class="horizontal-span">
+                <div>
+                    <p class="project-text project-title-text">{{item.title}}</p>
+                    <p class="project-text project-name-text">{{item.name}}</p>
+                    <p class="project-text project-year-text">{{item.year}}</p>
+                </div>
+                <a *ngIf="item.xr != ''" class="project-view-btn"><span class="material-symbols-outlined view-symbol">
+                    view_in_ar
+                    </span>View in AR</a>
+            </span>
+            
+            <p class="project-text project-section-title">About Project</p>
+            <p class="project-text">{{item.project_description}}</p>
+            <p class="project-text project-section-title">My Role</p>
+            <p class="project-text">{{item.role_description}}</p>
         </div>
     </div>
 </div>

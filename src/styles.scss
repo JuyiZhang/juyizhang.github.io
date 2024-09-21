@@ -1,16 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@coreui/coreui/scss/coreui";
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 1rem;
   background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
 }
 
 html {
-  min-width: 1280px;
+  min-width: 1312px;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0px;
+  padding: 3rem 2rem;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.4rem;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }

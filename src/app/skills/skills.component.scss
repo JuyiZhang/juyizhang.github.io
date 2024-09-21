@@ -1,0 +1,70 @@
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 406px);
+    grid-gap: 0.75rem;
+    padding: 1rem;
+}
+
+.Programming {
+    background: linear-gradient(180deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/skill-page/programming.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.Electrical {
+    background: linear-gradient(180deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/skill-page/electrical.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.Design {
+    background: linear-gradient(180deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/skill-page/design.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.Languages {
+    background: linear-gradient(180deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/skill-page/languages.jpg');
+    background-position: center;
+    background-size: cover;
+    grid-column: span 3;
+}
+
+.Office {
+    background: linear-gradient(180deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/skill-page/office.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.Parametric {
+    background: linear-gradient(180deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/skill-page/parametric.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.Analysis {
+    background: linear-gradient(180deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/skill-page/analysis.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+p {
+    color: white;
+    text-shadow: #111 0px 0px 10px;
+}
+
+
+
+.skill-item {
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.skill-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
